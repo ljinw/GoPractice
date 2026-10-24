@@ -1,0 +1,59 @@
+{
+  "description": "仅用于本地练习的合成样例，不代表现网设备或厂商阈值",
+  "rule": {
+    "version": "teaching-cpu-v1",
+    "metric": "cpu_percent",
+    "abnormal_when": ">=80",
+    "missing": "unknown"
+  },
+  "samples": [
+    {
+      "source": "synthetic",
+      "fixture_key": "normal",
+      "device_name": "sw-access",
+      "ip": "192.0.2.20",
+      "observed_at": "2026-10-24T09:00:00+08:00",
+      "facts": [
+        {
+          "fact_key": "cpu",
+          "metric": "cpu_percent",
+          "value": 32,
+          "unit": "percent"
+        }
+      ],
+      "expected_health": "normal"
+    },
+    {
+      "source": "synthetic",
+      "fixture_key": "abnormal",
+      "device_name": "sw-core",
+      "ip": "192.0.2.10",
+      "observed_at": "2026-10-24T09:00:00+08:00",
+      "facts": [
+        {
+          "fact_key": "cpu",
+          "metric": "cpu_percent",
+          "value": 92,
+          "unit": "percent"
+        }
+      ],
+      "expected_health": "abnormal"
+    },
+    {
+      "source": "synthetic",
+      "fixture_key": "missing",
+      "device_name": "sw-missing",
+      "ip": "198.51.100.30",
+      "observed_at": "2026-10-24T09:00:00+08:00",
+      "facts": [
+        {
+          "fact_key": "cpu",
+          "metric": "cpu_percent",
+          "value": null,
+          "unit": "percent"
+        }
+      ],
+      "expected_health": "unknown"
+    }
+  ]
+}

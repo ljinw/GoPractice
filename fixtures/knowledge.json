@@ -1,0 +1,38 @@
+{
+  "description": "自编教学知识，不是厂商维护手册",
+  "entries": [
+    {
+      "kb_id": "KB-CPU-001",
+      "version": "1",
+      "source": "synthetic-teaching",
+      "keywords": [
+        "cpu",
+        "CPU",
+        "处理器"
+      ],
+      "text": "CPU 使用率偏高只说明本次采样达到教学阈值。建议先核查时间窗口、连续样本和业务负载，再判断是否持续异常；不能凭一次样本断言设备故障。"
+    },
+    {
+      "kb_id": "KB-MISSING-001",
+      "version": "1",
+      "source": "synthetic-teaching",
+      "keywords": [
+        "缺失",
+        "未知",
+        "missing"
+      ],
+      "text": "缺失指标应保留为未知。先确认采样是否完成、解析是否成功及原始数据是否包含该项；不要用数值零替代缺失。"
+    },
+    {
+      "kb_id": "KB-EVIDENCE-001",
+      "version": "1",
+      "source": "synthetic-teaching",
+      "keywords": [
+        "证据",
+        "采样",
+        "依据"
+      ],
+      "text": "报告中的结论应附采样时间、实际值、判定规则版本和事实编号。排查建议应区分已有证据、可能原因以及还需要验证的事项。"
+    }
+  ]
+}

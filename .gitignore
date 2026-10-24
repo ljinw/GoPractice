@@ -1,0 +1,21 @@
+# Local practice output
+**/data/
+**/bin/
+**/tmp/
+*.exe
+*.test
+*.out
+*.log
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+.idea/
+.vscode/
+
+# Local middleware state and secrets
+.env
+.env.*
+!.env.example
+**/volumes/
+**/secrets/
