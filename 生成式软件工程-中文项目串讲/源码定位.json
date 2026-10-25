@@ -1,0 +1,109 @@
+{
+  "project": "E:/NetMon",
+  "git_head": "6f9e92e",
+  "read_date": "2026-10-25",
+  "limitations": [
+    "未启动服务",
+    "未运行NetMon测试",
+    "未读取真实业务数据库",
+    "未调用真实设备或模型"
+  ],
+  "entries": [
+    {
+      "file": "backend-go/internal/modules/network/routes/multi_agent.go",
+      "symbol": "func handleCreateMultiAgentTask",
+      "line": 120,
+      "sha256": "1bd9f6893c5f511d2d41377dc353b7e59a5b2dc3c17b829ab050c0de17fe9069",
+      "evidence": "source_read_only",
+      "runtime_verified": false
+    },
+    {
+      "file": "backend-go/internal/modules/network/services/runtime_skill_selection.go",
+      "symbol": "func selectRuntimeSkills",
+      "line": 202,
+      "sha256": "4e5e08a2afdd535c213abdb4f24b0cb60414a60c12ded12e3b0c3bbdb11390a3",
+      "evidence": "source_read_only",
+      "runtime_verified": false
+    },
+    {
+      "file": "backend-go/internal/modules/network/services/multi_agent_understanding.go",
+      "symbol": "endpoint := strings.TrimRight(config.Env.AgentRuntimeURL",
+      "line": 394,
+      "sha256": "047fad523273a60af78d0cc7c4c8ae975e2d51685841983bb35c9c9354da1998",
+      "evidence": "source_read_only",
+      "runtime_verified": false
+    },
+    {
+      "file": "backend-go/internal/agentruntime/eino_engine.go",
+      "symbol": "func NewEinoEngine",
+      "line": 43,
+      "sha256": "d9702bdf6dc7561b4e5fe083415a5fa5e92303d4484568807fe8932b1a52024f",
+      "evidence": "source_read_only",
+      "runtime_verified": false
+    },
+    {
+      "file": "backend-go/internal/modules/network/services/tool_gateway.go",
+      "symbol": "func (g *toolGateway) Invoke",
+      "line": 524,
+      "sha256": "05e3aa63b2b7fe37cc8e087c241f3b880c1b6f3576ca7d3f0f07fe794ef5a634",
+      "evidence": "source_read_only",
+      "runtime_verified": false
+    },
+    {
+      "file": "backend-go/internal/modules/network/services/multi_agent_reviewer.go",
+      "symbol": "func reviewMultiAgentEvidence",
+      "line": 30,
+      "sha256": "0046d932ee3dd098573874d5672c78536a733edbe61b0589b4c969e1878ccfc4",
+      "evidence": "source_read_only",
+      "runtime_verified": false
+    },
+    {
+      "file": "backend-go/internal/agentruntime/inspection.go",
+      "symbol": "func analyzeInspection",
+      "line": 159,
+      "sha256": "d1fbd8901ef32c36548c6950801a4e7d31b98bddf3ad831777aba84d2ada6c77",
+      "evidence": "source_read_only",
+      "runtime_verified": false
+    },
+    {
+      "file": "backend-go/internal/modules/network/services/persistent_agent_recovery_service.go",
+      "symbol": "func (coordinator *persistentDAGRecoveryCoordinator) Start",
+      "line": 25,
+      "sha256": "8fed1431ceec4e9b2a152c955124b1ab585b7544f4a7c08f64c377c41c3ba30e",
+      "evidence": "source_read_only",
+      "runtime_verified": false
+    },
+    {
+      "file": "backend-go/internal/modules/network/module.go",
+      "symbol": "services.PersistentDAGRecoveryCoordinatorInstance.Start()",
+      "line": 65,
+      "sha256": "9a1b59b44f0aa8ea147df7184a83ee8dc0d69afe4368e228569959e0cab2a3a9",
+      "evidence": "source_read_only",
+      "runtime_verified": false
+    },
+    {
+      "file": "backend-go/cmd/agent-runtime/main.go",
+      "symbol": "func run() error",
+      "line": 24,
+      "sha256": "a163436c51f71f34993a1293ca8a12fb228bf4c7dc085efc51b5c831900802af",
+      "evidence": "source_read_only",
+      "runtime_verified": false
+    },
+    {
+      "file": "backend-go/internal/agentruntime/untrusted.go",
+      "symbol": "func BoundUntrustedData",
+      "line": 26,
+      "sha256": "8888f59f7a7ca395766c4a7dde56a9d40d5c079459bd84d6c3d40ec41a257e86",
+      "evidence": "source_read_only",
+      "runtime_verified": false
+    },
+    {
+      "file": "backend-go/internal/agentruntime/budget.go",
+      "symbol": "func currentTokenBudget",
+      "line": 71,
+      "sha256": "b044f9c2eeb63cc3ae900dceb17c477dfed59108199600f836810841aef5a4d9",
+      "evidence": "source_read_only",
+      "runtime_verified": false
+    }
+  ]
+}
