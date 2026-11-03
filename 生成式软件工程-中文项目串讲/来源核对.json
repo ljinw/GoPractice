@@ -1,0 +1,116 @@
+{
+  "checked_at": "2026-11-02",
+  "original_course_snapshot": "2026-10-25；原始讲义及来源清单未覆盖",
+  "records": [
+    {
+      "repository": "deepseek-ai/deepseek-harness",
+      "ref": "ce7073d51254c26cd63b22a60835b8f948deb447",
+      "path": "docs/architecture.md",
+      "blob_sha": "e3f5cd24a39d1d6275a291c83f165e6839ce191b",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/docs/architecture.md",
+      "sha256": "c329e1a9e6227475069edc19284c4eee39aff8cc77084ec962099617b1698358"
+    },
+    {
+      "repository": "deepseek-ai/deepseek-harness",
+      "ref": "ce7073d51254c26cd63b22a60835b8f948deb447",
+      "path": "docs/cordis-primer.md",
+      "blob_sha": "2e5a48745cf96068bec9e31b0c6f1bf9d84b0e34",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/docs/cordis-primer.md",
+      "sha256": "f0cc573cc10b60d1bd76039fb0bd666edfb32c9b18027d4dc301c042a9e65d58"
+    },
+    {
+      "repository": "deepseek-ai/deepseek-harness",
+      "ref": "ce7073d51254c26cd63b22a60835b8f948deb447",
+      "path": "packages/core/agent/README.md",
+      "blob_sha": "a7433347f88f037081a18b0b1d60ebc77ebf3566",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/core/agent/README.md",
+      "sha256": "3e910acefd4429db6faf1493a82ab75475978e1a8c40b2bb2efb4b55546518da"
+    },
+    {
+      "repository": "deepseek-ai/deepseek-harness",
+      "ref": "ce7073d51254c26cd63b22a60835b8f948deb447",
+      "path": "packages/core/agent-loop/README.md",
+      "blob_sha": "6db520d9b55945a06a15cd784cf2cbb6c519e7bd",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/core/agent-loop/README.md",
+      "sha256": "22cb7970e85d04d3658e03edcca1357f074f3a608bde3aa097f1609675c5c76d"
+    },
+    {
+      "repository": "deepseek-ai/deepseek-harness",
+      "ref": "ce7073d51254c26cd63b22a60835b8f948deb447",
+      "path": "packages/core/session/README.md",
+      "blob_sha": "bcebe260750a442d6b3ed5efb9804c0fa8508443",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/core/session/README.md",
+      "sha256": "1aeab353684fd08be5b01a07cebdadd9100b9f4c8fb682f9bae86b51b0fe341c"
+    },
+    {
+      "repository": "deepseek-ai/deepseek-harness",
+      "ref": "ce7073d51254c26cd63b22a60835b8f948deb447",
+      "path": "packages/core/tools/README.md",
+      "blob_sha": "a0ce67537190251d71d2bc71df518229fb620fd4",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/core/tools/README.md",
+      "sha256": "3406d46e264e5c44ddff8c4aface10a3a1472089f870a6782fd03bd6296e5de9"
+    },
+    {
+      "repository": "deepseek-ai/deepseek-harness",
+      "ref": "ce7073d51254c26cd63b22a60835b8f948deb447",
+      "path": "packages/core/agent/src/runtime-types.ts",
+      "blob_sha": "2b1698e39c663f4d8d7760ebdaef647bed693257",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/core/agent/src/runtime-types.ts",
+      "sha256": "2f7161c634956759bc33285ab1f293443cc30e64826c71c4164977802025f216"
+    },
+    {
+      "repository": "deepseek-ai/deepseek-harness",
+      "ref": "ce7073d51254c26cd63b22a60835b8f948deb447",
+      "path": "packages/core/session/src/surface.ts",
+      "blob_sha": "0bb84c030ef595b3d9a17116e7dc7b9deb26369c",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/core/session/src/surface.ts",
+      "sha256": "5b5394dc02584cb3549330b358fbe5919d05f8a6920d90f6819bb7e3b4783154"
+    },
+    {
+      "repository": "deepseek-ai/deepseek-harness",
+      "ref": "ce7073d51254c26cd63b22a60835b8f948deb447",
+      "path": "packages/core/tools/src/pipeline.ts",
+      "blob_sha": "56c68c6c59bb280ac0c96d1198cec6c1e8e7db49",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/core/tools/src/pipeline.ts",
+      "sha256": "07f0a7150b3ef190e0922189628764d1544e0cb2796fc6a6a5deb22b27da13c4"
+    },
+    {
+      "repository": "deepseek-ai/deepseek-harness",
+      "ref": "ce7073d51254c26cd63b22a60835b8f948deb447",
+      "path": "packages/core/agent-loop/src/agent.ts",
+      "blob_sha": "c4daa50c47c13fb86b94466774dfcac32b214076",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/ce7073d51254c26cd63b22a60835b8f948deb447/packages/core/agent-loop/src/agent.ts",
+      "sha256": "ad9ee0778c0a93dec40363f88b53f442add9b033837b9ff049675a1ada3df61f"
+    },
+    {
+      "repository": "cloudwego/eino",
+      "ref": "0a5ca53b9d3bf7b661dccc863465ec568a421eea",
+      "path": "README.md",
+      "blob_sha": "3f84ab00064b908791aead1ec46771486905bf0d",
+      "url": "https://github.com/cloudwego/eino/blob/0a5ca53b9d3bf7b661dccc863465ec568a421eea/README.md",
+      "sha256": "60e64e0006d6098650c5f966500ca1b6f5b61481ff832a0e0ca49784362935b9"
+    },
+    {
+      "repository": "cloudwego/eino",
+      "ref": "0a5ca53b9d3bf7b661dccc863465ec568a421eea",
+      "path": "adk/chatmodel.go",
+      "blob_sha": "c7f0f58dd0fd2ecdd99ab2e071c8adfa9258c2f7",
+      "url": "https://github.com/cloudwego/eino/blob/0a5ca53b9d3bf7b661dccc863465ec568a421eea/adk/chatmodel.go",
+      "sha256": "674dc19ca9a41406d5fc68848355eb9199c39be8f3b4a2a01527e1dc41ce61a5"
+    },
+    {
+      "repository": "cloudwego/eino",
+      "ref": "0a5ca53b9d3bf7b661dccc863465ec568a421eea",
+      "path": "go.mod",
+      "blob_sha": "0b87a6cabf81210592f927d9223e04de7734bd43",
+      "url": "https://github.com/cloudwego/eino/blob/0a5ca53b9d3bf7b661dccc863465ec568a421eea/go.mod",
+      "sha256": "a6e1e96e23bf59487449afcfd5df57cb8cdbc9674c702a7c149c86339268d6e4"
+    }
+  ],
+  "verification_scope": {
+    "go_example": "Go 1.24.0 Linux/amd64，标准库与固定脚本，实际测试",
+    "dsh": "文档及选定源码已阅读，未运行产品",
+    "eino": "README和选定源码已阅读，未运行框架集成",
+    "netmon": "仅保留旧教材定位，未读取当前生产仓库"
+  }
+}

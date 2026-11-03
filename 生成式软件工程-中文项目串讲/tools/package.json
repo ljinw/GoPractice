@@ -1,0 +1,11 @@
+{
+  "name": "gopractice-gse-reader",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build_reader.cjs"
+  },
+  "dependencies": {
+    "marked": "17.0.5"
+  }
+}

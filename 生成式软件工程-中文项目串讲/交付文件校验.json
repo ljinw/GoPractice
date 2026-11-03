@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-10-25T12:48:52.899Z",
+  "generated_at": "2026-11-02",
+  "checks": "passed",
   "totals": {
     "lectures": 9,
     "labs": 2,
-    "source_pages": 12,
-    "exercise_rounds": 99,
-    "learning_characters": 30195,
-    "verified_local_links": 92,
-    "code_locations": 12
+    "harness_chapters": 9,
+    "original_exercise_rounds": 99,
+    "additional_harness_rounds": 81,
+    "original_source_files_unchanged": 26,
+    "learning_characters": 55432,
+    "files": 65
   },
-  "checks": "passed",
+  "scope": "详见资料校验.md；不代表DSH/Eino/真实模型或生产验收",
   "files": [
     {
       "path": "AGENTS.md",
@@ -17,9 +19,89 @@
       "sha256": "ef56c0bf32450fbfc45de96652cf9dfa8f35b5dde7c99a19222295a0e332abfb"
     },
     {
+      "path": "Harness专题/01-从一次回答到执行循环.md",
+      "bytes": 5676,
+      "sha256": "87935a32ab4a9250741cbc15e50e705d4bce8123ad84272ce0427ee3f61a6039"
+    },
+    {
+      "path": "Harness专题/02-工具请求怎样变成真正的执行.md",
+      "bytes": 5511,
+      "sha256": "9cfab34442b96b8e75567c2187b00643adf9d7120e267347499f1a527c982cfa"
+    },
+    {
+      "path": "Harness专题/03-会话事件与模型消息.md",
+      "bytes": 5017,
+      "sha256": "eda2686517dc484b6b225a066915dc8890d6d795e55b3f373de53264492d83a2"
+    },
+    {
+      "path": "Harness专题/04-新消息上下文与执行时机.md",
+      "bytes": 4895,
+      "sha256": "42d602f121c556b46bf73904dfc7a4fa11c697dfdb40a7d3820a7bfdc410b6ef"
+    },
+    {
+      "path": "Harness专题/05-插件服务事件与装配.md",
+      "bytes": 7754,
+      "sha256": "33a523f07c1966797d4eb0beee236e62e80ce99d800e804cde47b6d7c4efe930"
+    },
+    {
+      "path": "Harness专题/06-权限预算与可观测记录.md",
+      "bytes": 4807,
+      "sha256": "f941737478d46e8df71a9249c1fc0cf63b25cdb5c525e6694416bebf5a0bb68a"
+    },
+    {
+      "path": "Harness专题/07-取消超时重试与恢复.md",
+      "bytes": 5060,
+      "sha256": "468313c9cddfc286b303a4dab1432ed9c3039710964294d8457dc98c8f50affa"
+    },
+    {
+      "path": "Harness专题/08-用Eino实现与怎样借鉴Harness.md",
+      "bytes": 5223,
+      "sha256": "606c0c213167bbb6116c78e4e46eb9d41c86cddcc63e1b5b649c636bc96f36c2"
+    },
+    {
+      "path": "Harness专题/09-从最小样例读到真实源码.md",
+      "bytes": 5201,
+      "sha256": "51730d6b8e0bcb85ce009a735c9d8513447f3e4ea5899cd997373b6f412927f0"
+    },
+    {
+      "path": "Harness专题/专题练习册.md",
+      "bytes": 11237,
+      "sha256": "1e2428575fd0678bbdea5648562ad7cc1aa0bb552ee99ebeda2410c6a51c6cd2"
+    },
+    {
+      "path": "examples/miniharness/README.md",
+      "bytes": 3026,
+      "sha256": "00fb117f7acb42917a7674863a90f9f3ca83f35c8ede9e85d5b5c783dbe0b9a1"
+    },
+    {
+      "path": "examples/miniharness/go.mod",
+      "bytes": 51,
+      "sha256": "3a16314441008435d80917fe6279f5e33324d7eb4c226b8b8039041ee19bd832"
+    },
+    {
+      "path": "examples/miniharness/main.go",
+      "bytes": 7035,
+      "sha256": "6052a5794b5042b80117ce1586a3774d8423149104661026acbf75bae5cc4a5b"
+    },
+    {
+      "path": "examples/miniharness/main_test.go",
+      "bytes": 5564,
+      "sha256": "49a4c5a3505ac9ae200015bb062616500732cacf80ad434bcdb17e4779b9f80d"
+    },
+    {
+      "path": "tools/build_reader.cjs",
+      "bytes": 11865,
+      "sha256": "84c2e964d23e0c6109598678b910f9de8d9220f668bd99541deb7178b3b71ef9"
+    },
+    {
+      "path": "tools/package.json",
+      "bytes": 184,
+      "sha256": "e7df978472a1966d0a82207467649c2f2882f938c2da021557f8c5fa36e41c2d"
+    },
+    {
       "path": "中文术语与项目定位.md",
-      "bytes": 7125,
-      "sha256": "ca1808a70396d979e75ede5fee70c42b4ea3b95850628c145ca16c92dc95fa38"
+      "bytes": 9135,
+      "sha256": "065e8f140e6b7728722a9115d45f27f1f0f71f917cabbd5abf9af3a0fe23c391"
     },
     {
       "path": "原始讲义/README.md",
@@ -153,58 +235,58 @@
     },
     {
       "path": "学习版/01-把想法变成可以检查的结果.md",
-      "bytes": 7243,
-      "sha256": "cc07fd9f8986d768e8afba47140526c7bb5ce5d18c22074e13a2d17ba3d13aa3"
+      "bytes": 8478,
+      "sha256": "c3e10b4a822addaffd64d1611d84b588682f597ecb755c49d93af1c031114f99"
     },
     {
       "path": "学习版/02-让助手拿到正确的资料.md",
-      "bytes": 6995,
-      "sha256": "9cc977574cb5c79e5ec22889e591d05c1d75234fc669d125f45c7955a4470287"
+      "bytes": 7346,
+      "sha256": "d6079066a796b1a4900a0482d4c9ec13209c188962cf695401c7e684aedf42fd"
     },
     {
       "path": "学习版/03-保存修改并看懂版本.md",
-      "bytes": 5802,
-      "sha256": "ca6a24dce5c8777c8c9ff5870fd34386c0177ac1b7c39c6d453cbbee7555504c"
+      "bytes": 6495,
+      "sha256": "20943ff41a8559f81723f7404b8b544c9e4a30544f04a7955a336d5c93771bba"
     },
     {
       "path": "学习版/04-多人和多个助手怎样协作.md",
-      "bytes": 6127,
-      "sha256": "9a24d7d9827b61954052ece58ea4fe6409ca880a0d0524d31af0c51052a0693f"
+      "bytes": 6193,
+      "sha256": "4dd381188debc75febeda90dee28260f4e2c6e19cc53c32301f333be583cece8"
     },
     {
       "path": "学习版/05-把完成条件写成调用约定.md",
-      "bytes": 8577,
-      "sha256": "f70e1c9098631e9aaf92f1b87ed21b3cfee8397680e3460c41bc09af31f44c9b"
+      "bytes": 8652,
+      "sha256": "f4ddb49ff7aaab466d951a7b5c47732be0e352fc0efcad7bdae1e68f07299e33"
     },
     {
       "path": "学习版/06-需求变化时数据应该怎样组织.md",
-      "bytes": 7006,
-      "sha256": "c79ca9dbc14e8755beec262ca4dced72c35698ccf92f92e1e97a1dbbc2297fe9"
+      "bytes": 6702,
+      "sha256": "bee5baa1fdc8aee5d6b4eb8962bd570a966ca2bf62ca1f3faa2858092b1d973f"
     },
     {
       "path": "学习版/07-控制复杂度与阅读源码.md",
-      "bytes": 8873,
-      "sha256": "a8935cec204377d723d321f96a787a1de769927a5c78b71dcd296551e8a64aaf"
+      "bytes": 6667,
+      "sha256": "b99bb137f1c9873954b823e54004a2204129a7d5153c1aa64acb951197f8bd28"
     },
     {
       "path": "学习版/08-让检查参与每次开发.md",
-      "bytes": 6886,
-      "sha256": "fe2d4136fadb2c39a2a91191424717535a186bcb7c31f61df8705f1e8e9746a4"
+      "bytes": 6340,
+      "sha256": "f9bf81aa8313da4377cd777c455df0fed912193c7068eae0c6b2c54fa7376ddb"
     },
     {
       "path": "学习版/09-读懂自己的Agent运行底座.md",
-      "bytes": 8498,
-      "sha256": "0ed56409109e04cdbab7d99be18f144989373c06306cc11d74dfc4b118345382"
+      "bytes": 4650,
+      "sha256": "6b948c2e44a09ad4b824496a15a4f093a64f0490a177db32e72c061b5491d800"
     },
     {
       "path": "学习版/实验一-从三份资料开始做巡检助手.md",
-      "bytes": 5519,
-      "sha256": "a6e1692acdc658699b9bd135b4713e52c00ee84fd30e6ca6a2a507ee7a414789"
+      "bytes": 6665,
+      "sha256": "54779d3b69dbfd464d1ddc41e62fdd0796c4b3d76dbcab227d073b941d611fce"
     },
     {
       "path": "学习版/实验二-验证多轮分析是否值得.md",
-      "bytes": 6110,
-      "sha256": "00b8ee03ed8807a2cd108c59f1ce9d5b413c4018c4d2796c7f0aae1e6efa3feb"
+      "bytes": 7077,
+      "sha256": "0f4238868342a69886a61a7bc21be433b19184ef8c22f04583d4a75d31fddf65"
     },
     {
       "path": "学习记录.md",
@@ -213,13 +295,23 @@
     },
     {
       "path": "开始这里.md",
-      "bytes": 6088,
-      "sha256": "63b383a601000fda0f6f1d5152119cf73f25c941a93a43cb367f367a4b170c21"
+      "bytes": 3146,
+      "sha256": "ef318bc0c11eb7cabbed84ac0b5b8dc7ac50f5d3ccfaada60ca2ce6ad8f27fdd"
+    },
+    {
+      "path": "本次修订说明.md",
+      "bytes": 2893,
+      "sha256": "3d897d2e85f31a335b0b34d603925b788d2ea054b5054b7b8d97f9681689e2b9"
     },
     {
       "path": "来源与使用说明.md",
-      "bytes": 5003,
-      "sha256": "69f6f2948e2b4fddd62337b2c966230f7967057064184667756c258a850eb76b"
+      "bytes": 5840,
+      "sha256": "a3e4beb4132ade15c8244e3197bbca6b36372efaa6479e62b4f4a62bf5a05d2c"
+    },
+    {
+      "path": "来源核对.json",
+      "bytes": 6205,
+      "sha256": "599a0dbd4b7ca60b284daaf3d4a86ca947bb0eef80b7be4e565141aab533be20"
     },
     {
       "path": "来源清单.json",
@@ -232,14 +324,19 @@
       "sha256": "511b503aad3ec9c0c5bd885f566f07d46e35e4774f382f4585be5e2d1168e8af"
     },
     {
+      "path": "补充资料/NetMon历史对照.md",
+      "bytes": 8706,
+      "sha256": "cd3304de979bff5de7c75587eb5a4e521d4c5560490867186308a5752e17303e"
+    },
+    {
       "path": "资料校验.md",
-      "bytes": 1646,
-      "sha256": "1215d950b8a894ecf687299bd2362aa98dd5ca563ad07ef7acb3a22bde92ac0d"
+      "bytes": 2261,
+      "sha256": "4d3a544b72b26764f41a2d6a770632bcf904ee4fe3a79bfba7376d376f93abec"
     },
     {
       "path": "阅读版.html",
-      "bytes": 114855,
-      "sha256": "ca5d1254e69444ec242724c7afe234b516ca8c2b122987f0d06abdd749505f89"
+      "bytes": 247806,
+      "sha256": "fde870b75f1c508bc8b9721578d0481c3088a05d04439fadbaf41f18f7b533c0"
     }
   ]
 }
